@@ -8,4 +8,5 @@ header-img: img/Dynamics365PricingCost.jpg
 catalog: true
 tags:
     - Dynamics CRM
+	- C#
 ---
