@@ -7,7 +7,7 @@ author:     Stone
 header-img: img/Dynamics365PricingCost.jpg
 catalog: true
 tags:
-    - Dynamics CRM
+    - DynamicsCRM
     - C#
 ---
 
