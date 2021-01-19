@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Dynamics CRM
-subtitle:   Test 进阶
+title:      Date and Time字段中各个Behavior的区别
+subtitle:   Dynamics CRM
 date:       2017-01-06
 author:     BY
 header-img: img/post-bg-ios9-web.jpg
