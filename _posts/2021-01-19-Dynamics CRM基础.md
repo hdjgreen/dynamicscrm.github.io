@@ -17,7 +17,7 @@ tags:
 1. User Local -- Format为Date Only
 ![User Local-Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/0751b2a21b334c9e85f4a2636875b74a.png)
 2. User Local -- Format为Date and Time
-![User Local-Date and Time](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/91b9a2ebb4484ab8a9f9a9dfd655c1a0.png)
+![User Local-Date and Time](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/91b9a2ebb4484ab8a9f9a9dfd655c1a0.png)
 3. Date Only(它的格式只有Date only一种)
 ![Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/c90293608dc148d68bdf3a5b6d4ea03b.png)
 4. Time-Zone Independent -- Format为Date Only
