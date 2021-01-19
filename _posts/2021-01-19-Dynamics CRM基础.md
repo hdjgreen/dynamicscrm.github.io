@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Dynamics
+title:      Dynamics CRM
 subtitle:   Test 进阶
 date:       2017-01-06
 author:     BY
