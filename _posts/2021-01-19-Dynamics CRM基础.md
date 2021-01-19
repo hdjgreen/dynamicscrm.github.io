@@ -2,8 +2,8 @@
 layout:     post
 title:      Date and Time字段中各个Behavior的区别
 subtitle:   Dynamics CRM
-date:       2017-01-06
-author:     BY
+date:       2021-01-19
+author:     Stone
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
