@@ -23,7 +23,7 @@ tags:
 4. Time-Zone Independent -- Format为Date Only
 ![Time-Zone Independent-Date Only](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/1e2eb55b754c4a1fa97081c81899e42b.png)
 5. Time-Zone Independent -- Format为Date and Time
-![Time-Zone Independent-Date and Time](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/3c70c2a4f75d438fa45435a86a675fb4.png.png)
+![Time-Zone Independent-Date and Time](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/3c70c2a4f75d438fa45435a86a675fb4.png)
 
 我们创建一条记录并将他们的值设置为如下:
 ![b7a905bff9d2a7b65042453197ca14f0.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/4f5059ccd44947cbaba61f477a8d7f7c.png)
