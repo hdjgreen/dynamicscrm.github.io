@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Dynamics CRM
 	- SSRS
+	- On-premise
 ---
 
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
