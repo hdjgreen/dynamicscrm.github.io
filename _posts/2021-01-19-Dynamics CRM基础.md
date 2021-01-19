@@ -17,21 +17,21 @@ tags:
 1. User Local -- Format为Date Only
 ![User Local-Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/0751b2a21b334c9e85f4a2636875b74a.png)
 2. User Local -- Format为Date and Time
-![User Local -- Format为Date and Time](:/91b9a2ebb4484ab8a9f9a9dfd655c1a0)
+![User Local-Date and Time](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/91b9a2ebb4484ab8a9f9a9dfd655c1a0.png)
 3. Date Only(它的格式只有Date only一种)
-![Date Only(它的格式只有Date only一种)](:/c90293608dc148d68bdf3a5b6d4ea03b)
+![Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/c90293608dc148d68bdf3a5b6d4ea03b.png)
 4. Time-Zone Independent -- Format为Date Only
-![Time-Zone Independent -- Format为Date Only](:/1e2eb55b754c4a1fa97081c81899e42b)
+![Time-Zone Independent-Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/1e2eb55b754c4a1fa97081c81899e42b.png)
 5. Time-Zone Independent -- Format为Date and Time
-![Time-Zone Independent -- Format为Date and Time](:/3c70c2a4f75d438fa45435a86a675fb4)
+![Time-Zone Independent-Date and Time](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/3c70c2a4f75d438fa45435a86a675fb4.png.png)
 
 我们创建一条记录并将他们的值设置为如下:
-![b7a905bff9d2a7b65042453197ca14f0.png](:/4f5059ccd44947cbaba61f477a8d7f7c)
+![b7a905bff9d2a7b65042453197ca14f0.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/4f5059ccd44947cbaba61f477a8d7f7c.png)
 保存后，我们去数据库看下他们他们在数据库的值是什么：
-![740c49d269094b17639cba26768d47ff.png](:/2ea919056e5049abad3df39c2eef215c)
+![740c49d269094b17639cba26768d47ff.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/2ea919056e5049abad3df39c2eef215c.png)
 
 这里需要说明一下，我们在CRM设置系统的时区设置是UTC + 8
-![51eb9dd3c34eb1ab5d61e5432e03bb12.png](:/29ed1de3f1fa4f5b9145f1c6d5892b93)
+![51eb9dd3c34eb1ab5d61e5432e03bb12.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/29ed1de3f1fa4f5b9145f1c6d5892b93.png)
 
 通过比较我们能够发现他们的区别：
 1. **User Local -- Format为Date Only**
@@ -50,10 +50,10 @@ tags:
 另外还在说一下这三种Behavior的一个区别就是，一旦建了一个Date and Time字段，behavior是Date Only或者Time-Zone Independent的，那么这个字段在保存后，它的Behavior就不能更改了；
 但如果behavior是User Local的，那么即使保存后，也是可以更改的。如下图：
 - User Local
-![fcea92e96749591488c38a6415cd3977.png](:/79009aac3d954b558b606cf07a2423d8) 
+![fcea92e96749591488c38a6415cd3977.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/79009aac3d954b558b606cf07a2423d8.png) 
 <br>
 - Date Only
-![c81f6b6d3e62988bc5288fc80119c3a3.png](:/3032f7ac3a524a1fa5154ee9f5575137)
+![c81f6b6d3e62988bc5288fc80119c3a3.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/3032f7ac3a524a1fa5154ee9f5575137.png)
 <br>
 - Time-Zone Independent
-![b9348faa8db2653b671aa3912db97950.png](:/f20bd067f1d848a18fa46618bd00fac4)
+![b9348faa8db2653b671aa3912db97950.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/f20bd067f1d848a18fa46618bd00fac4.png)
