@@ -15,7 +15,7 @@ tags:
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
 下面我们就来说一下他们之间的区别。我们通过在一个实体中分别创建集中不同的Behavior来比较他们的区别：
 1. User Local -- Format为Date Only
-![User Local -- Format为Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/blob/master/img/20210119/0751b2a21b334c9e85f4a2636875b74a.png)
+![User Local-Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/blob/master/img/20210119/0751b2a21b334c9e85f4a2636875b74a.png)
 2. User Local -- Format为Date and Time
 ![User Local -- Format为Date and Time](:/91b9a2ebb4484ab8a9f9a9dfd655c1a0)
 3. Date Only(它的格式只有Date only一种)
