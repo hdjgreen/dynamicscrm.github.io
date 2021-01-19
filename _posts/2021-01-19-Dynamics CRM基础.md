@@ -51,7 +51,7 @@ tags:
 
 ***如果用户不是多个时区的，这一块的差别是可以忽略的，很少有人会去关注他们在数据库中存储的值是什么，但是如果你需要写SSRS报表，需要直接从数据库中取数据，那么数据库和前端的差别就非常关键了，你需要知道Date and Time字段它的Behavior是什么类型，然后在报表中来决定是否需要换算，这些正是我最近在开发报表中所遇到的，所以大家如果有和我一样的情况，也请注意！***
 <br>
-另外还在说一下这三种Behavior的一个区别就是，一旦建了一个Date and Time字段，behavior是Date Only或者Time-Zone Independent的，那么这个字段在保存后，它的Behavior就不能更改了；
+另外再说一下这三种Behavior的一个区别就是，一旦建了一个Date and Time字段，behavior是Date Only或者Time-Zone Independent的，那么这个字段在保存后，它的Behavior就不能更改了；
 但如果behavior是User Local的，那么即使保存后，也是可以更改的。如下图：
 - User Local
 ![fcea92e96749591488c38a6415cd3977.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/79009aac3d954b558b606cf07a2423d8.png) 
