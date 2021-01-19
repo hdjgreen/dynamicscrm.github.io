@@ -1,15 +1,15 @@
 ---
 layout:     post
-title:      Date and Time类型字段各种不同behavior的区别
-subtitle:   Dynamics CRM字段
-date:       2021-01-19
-author:     Stone
+title:      Test
+subtitle:   Test 进阶
+date:       2017-01-06
+author:     BY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - Dynamics CRM
-	- SSRS
-	- On-premise
+    - iOS1
+    - ReactiveCocoa
+    - 函数式编程
 ---
 
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
