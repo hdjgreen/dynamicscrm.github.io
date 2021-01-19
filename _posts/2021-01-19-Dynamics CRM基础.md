@@ -7,9 +7,8 @@ author:     BY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
 tags:
-    - iOS1
-    - ReactiveCocoa
-    - 函数式编程
+    - DynamicsCRM
+    - SSRS
 ---
 
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
