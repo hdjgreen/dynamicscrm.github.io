@@ -13,7 +13,7 @@ tags:
 
 ## Dynamics CRM中Date and Time类型字段各种不同behavior的区别
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
-下面我们就来说一下他们之间的区别。我们通过在一个实体中分别创建集中不同的Behavior来比较他们的区别：
+下面我们就来说一下他们之间的区别。我们通过在一个实体中分别创建几种不同的Behavior来比较他们的区别：
 1. User Local -- Format为Date Only
 ![User Local-Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/0751b2a21b334c9e85f4a2636875b74a.png)
 2. User Local -- Format为Date and Time
@@ -36,12 +36,16 @@ tags:
 通过比较我们能够发现他们的区别：
 1. **User Local -- Format为Date Only**
 前端只会显示日期不会显示时间，但是会把这个值默认为UTC + 8的时区，时间为1/19/2021 00:00:00.000，但是在数据库中会存储为UTC + 0的时间，也就是需要减掉8个小时，所以是2021-01-18 16:00:00.000，也就是数据库截图中的第三列
+<br>
 2. **User Local -- Format为Date and Time**
 我们把第一个User Local格式为Date Only的如果理解了，就不难明白这个为什么在数据库中是2021-01-19 00:00:00.000，因为我们在前端界面设置的时间为1/19/2021 8:00 AM，系统默认为UTC + 8的时区，那么存储在数据库中的时间为UTC + 0，也就是减掉8个小时为2021-01-19 00:00:00.000，也就是数据库截图中的第四列
+<br>
 3. **Date Only(它的格式只有Date only一种)**
 这种Date Only和Time-Zone Independent都是不区分时区的，也就是和时区无关的，可以理解为在前端填的是什么，数据库中记录的就是什么，无论你是什么时区。因为这个是Date Only的，所以前端不会显示时间，那么数据库就会记为2021-01-19 00:00:00.000，也就是数据库截图中的第一列
+<br>
 4. **Time-Zone Independent -- Format为Date Only**
 同第三种一样，不区分时区，只显示日期，不显示时间，数据库记录为2021-01-19 00:00:00.000，也就是数据库截图中的第五列，通过尝试可以看出Behavior如果为Date Only和Time-Zone Independent的Date Only，那么它们在数据库的表现形式是一样的，并没有区别，在前端页面的显示也是相同的。
+<br>
 5. **Time-Zone Independent -- Format为Date and Time**
 同样与时区无关，我们前端设置为1/19/2021 8:00 AM，那么数据库中就记为2021-01-19 08:00:00.000，也就是数据库截图中的第二列
 
