@@ -11,7 +11,6 @@ tags:
 	- SSRS
 ---
 
-## Dynamics CRM中Date and Time类型字段各种不同behavior的区别
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
 下面我们就来说一下他们之间的区别。我们通过在一个实体中分别创建几种不同的Behavior来比较他们的区别：
 1. User Local -- Format为Date Only
