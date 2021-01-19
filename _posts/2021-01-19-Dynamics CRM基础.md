@@ -19,11 +19,11 @@ tags:
 2. User Local -- Format为Date and Time
 ![User Local-Date and Time](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/91b9a2ebb4484ab8a9f9a9dfd655c1a0.png)
 3. Date Only(它的格式只有Date only一种)
-![Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/c90293608dc148d68bdf3a5b6d4ea03b.png)
+![Date Only](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/c90293608dc148d68bdf3a5b6d4ea03b.png)
 4. Time-Zone Independent -- Format为Date Only
-![Time-Zone Independent-Date Only](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/1e2eb55b754c4a1fa97081c81899e42b.png)
+![Time-Zone Independent-Date Only](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/1e2eb55b754c4a1fa97081c81899e42b.png)
 5. Time-Zone Independent -- Format为Date and Time
-![Time-Zone Independent-Date and Time](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/3c70c2a4f75d438fa45435a86a675fb4.png.png)
+![Time-Zone Independent-Date and Time](https://raw.githubusercontent.com/hdjgreen/dynamicscrm.github.io/master/img/20210119/3c70c2a4f75d438fa45435a86a675fb4.png.png)
 
 我们创建一条记录并将他们的值设置为如下:
 ![b7a905bff9d2a7b65042453197ca14f0.png](https://github.com/hdjgreen/dynamicscrm.github.io/raw/master/img/20210119/4f5059ccd44947cbaba61f477a8d7f7c.png)
