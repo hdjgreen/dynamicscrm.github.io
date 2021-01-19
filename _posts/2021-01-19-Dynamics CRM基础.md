@@ -15,15 +15,15 @@ tags:
 字段类型Date and Time有三种不同给的behavior: **User Local**, **Date Only**和**Time-Zone Independent**。
 下面我们就来说一下他们之间的区别。我们通过在一个实体中分别创建集中不同的Behavior来比较他们的区别：
 1. User Local -- Format为Date Only
-![da4d28b5a4a9ef0b22eae25fba127aaa.png](:/0751b2a21b334c9e85f4a2636875b74a)
+![User Local -- Format为Date Only](../img/2021-01-19/0751b2a21b334c9e85f4a2636875b74a)
 2. User Local -- Format为Date and Time
-![0cf6fae8f5239065d64c4255a642e377.png](:/91b9a2ebb4484ab8a9f9a9dfd655c1a0)
+![User Local -- Format为Date and Time](:/91b9a2ebb4484ab8a9f9a9dfd655c1a0)
 3. Date Only(它的格式只有Date only一种)
-![ae6d168c5e82bf5580bd8e29d1874555.png](:/c90293608dc148d68bdf3a5b6d4ea03b)
+![Date Only(它的格式只有Date only一种)](:/c90293608dc148d68bdf3a5b6d4ea03b)
 4. Time-Zone Independent -- Format为Date Only
-![c7ac491cdd255a8304b2667a445747eb.png](:/1e2eb55b754c4a1fa97081c81899e42b)
+![Time-Zone Independent -- Format为Date Only](:/1e2eb55b754c4a1fa97081c81899e42b)
 5. Time-Zone Independent -- Format为Date and Time
-![bc7fd3c7ee0249d21bbb7db8861f43b5.png](:/3c70c2a4f75d438fa45435a86a675fb4)
+![Time-Zone Independent -- Format为Date and Time](:/3c70c2a4f75d438fa45435a86a675fb4)
 
 我们创建一条记录并将他们的值设置为如下:
 ![b7a905bff9d2a7b65042453197ca14f0.png](:/4f5059ccd44947cbaba61f477a8d7f7c)
